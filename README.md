@@ -1,14 +1,6 @@
-# Foodmap
-
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Producto final_
-
-***
+# Social Network
 
 ## Flujo de trabajo
-
-##Creo que Firebase funciona para actualizar la base de datos en vivo, es decir, varios usuarios al mismo tiempo. Y para autenticar a los usuarios, chat entre usuarios, mostrar contenido dependiendo tipo de usuario (nuevo o de cierta audiencia), seguir el journey de usuarios entre diferentes dispositivos, dar recompensas a usuarios por compartir link
 
 1. Instalar Firebase
 2. Crear base de datos Firebase
