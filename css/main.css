@@ -1,0 +1,317 @@
+body{
+  margin: 0;
+  padding: 0;
+  }
+
+.home {
+  background-color: #DEDEE1;
+}
+
+.backgroundImage {
+  background-image: url("../assets/images/gradient.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 1366px;
+  height: 768px;
+}
+
+.logo {
+  margin-left: 36.5%;
+  margin-top: 15%;
+}
+
+.fa-user, .fa-search, .fa-pencil {
+  text-align: center;
+  color: #A8314C;
+  margin-top: 15px;
+}
+
+.container-3 {
+  font-family: 'Didact Gothic', sans-serif;
+  color: #848E95;
+}
+
+.buttons-container {
+  margin-left: 41%;
+  margin-bottom: 5%;
+}
+
+.card-title {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: #002847;
+}
+
+.card-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  color: #52595B;
+}
+
+/*Sección de noticias */
+
+.home input{
+   height: 25px;
+   border-radius: 8px;
+}
+
+.home span{
+  position: absolute;
+  margin-left: 5px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  color: #F70069;
+}
+
+/*Navbar*/
+
+nav {
+  height: 10vh;
+  background: #24284E;
+  display: flex;
+  align-items: center;
+}
+
+.post {
+  border-radius: 8px;
+  border: solid 1px purple;
+}
+
+.background {
+  background-image: url("../assets/images/gradient2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.avatar {
+  text-align: center;
+}
+
+.buttons-container {
+position: relative;
+
+}
+
+.btn-primary {
+  background-color: #2D9C96;
+  border-color: transparent;
+  height: 47px;
+}
+
+.btn-secondary:hover {
+  background-color: transparent;
+  border-color: white;
+}
+
+.post {
+
+}
+
+.bg-light {
+  background-color: #031C2D!important;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.btn-outline-success {
+ color: white;
+ background-color: transparent;
+ background-image: none;
+border-color: #9D1649;
+border-width: 2px;
+}
+
+.btn-outline-success:hover {
+  background-color: #9D1649;
+  }
+
+.navbar-toggler {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.home input {
+  height: 35px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #17a2b8;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #17a2b8;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #9D1649;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: #17a2b8;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #17a2b8;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.logo-claro {
+  margin-bottom: 12px;
+}
+
+.navbar-nav {
+  margin-left: 45%;
+}
+
+/* login */
+
+.form-login {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.login {
+  margin-top: 50px;
+  margin-left: 37%;
+  width: 300px;
+  height: 510px;
+  padding: 30px 25px;
+  background: white;
+  border: none;
+  background: #001A2C;
+  border-radius: 5px;
+  opacity: 0.5;
+}
+
+ .login-title {
+   font-family: 'Raleway', sans-serif;
+   text-align: center;
+   color: white;
+   text-align: center;
+
+   padding-bottom: 3%;
+   line-height: 30px;
+   font-size: 25px;
+   font-weight: 500;
+ }
+
+.login-input {
+  width: 285px;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left:10px;
+  font-size: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+  }
+
+.login-button {
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: #9D1649;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  outline:0;
+
+}
+
+.button-1 {
+  margin-bottom: 20px;
+}
+
+.login-lost {
+  text-align:center;
+  margin-bottom:0px;
+}
+
+.login-lost > a
+{
+  color: white;
+  text-decoration:none;
+  font-size:13px;
+}
+
+.login-bk {
+  background-image: url("../assets/images/gradient2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login-input {
+  width: 245px;
+}
+
+.logo-form {
+  margin-left: 32%;
+  width: 40%;
+  }
+
+/* Sección de noticias */
+.posts-noticias {
+  margin-bottom: 50px;
+}
+
+.logo-form-2 {
+  width: 40%;
+  text-align: center;
+  margin-left: 32%;
+  margin-top: 10%;
+}
+
+.card {
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+}
+
+.card-body {
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #9D1649;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.login-title-2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 7em;
+  font-weight: 400;
+  color: white;
+}
+
+.logo-grande {
+  height: 30vh;
+}

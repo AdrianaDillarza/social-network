@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Raleway:400,500|Roboto:400,700" rel="stylesheet">
+    <!--Logo en pestaña -->
+    <link rel="icon" type="image/png" href="../assets/images/imagotipo.png">
+    <title>Home</title>
+  </head>
+  <body class="home">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+<a class="navbar-brand" href="#"><img class="logo-claro" src="../assets/images/imagotipo-claro.png" alt="">
+</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto pull-left">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Experiencias <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Instituciones</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Opciones
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Mi Perfil</a>
+            <a class="dropdown-item" href="#">Seguidores</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Mis amigas</a>
+          </div>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+
+<!-- Seccion de Noticias Izquierda-->
+
+<div class="card" style="width: 18rem;">
+  <img class="logo-form-2" src="../assets/images/avatar-login-2.png" alt="">
+
+  <div class="card-body">
+    <h5 class="card-title">@luna_17</h5>
+    <p class="card-text">“No deseo que las mujeres tengan poder sobre los hombres, sino sobre sí mismas” Mary Wollstonecraft.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Instituciones
+    <img class="logo-form" src="../assets/images/fund-1.png" alt="">
+    <img class="logo-form" src="../assets/images/fund-2.png" alt="">
+    <img class="logo-form" src="../assets/images/fund-3.png" alt="">
+
+
+
+
+    <li class="list-group-item">Amigas</li>
+    <li class="list-group-item">Ayuda</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Mi Perfil</a>
+  </div>
+</div>
+
+        <!-- Seccion de Noticias Derecha ¿Como te sientes hoy?-->
+        <section class="posts-noticias">
+
+
+         <div class="col-8 pull-right">
+             <div class="row">
+                 <div class="form-group col-12">
+                     <textarea class="form-control" placeholder="¿Como te sientes hoy?" rows="3"></textarea>
+                     <button type="button" class="btn btn-primary">Compartir</button>
+                     <button>
+                       <input type="file" value="upload" id="uploadFile">
+                     </button>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col 12 posts-timeline"></div>
+               </div>
+           </div>
+       </div>
+   </div>
+</section>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
+<!-- jQuery -->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<!-- Bootstrap -->
+<script src="../js/bootstrap.min.js"></script>
+<!-- Base de datos -->
+<script src="../js/data.js"></script>
+<!-- Aquí va tus archivos JS -->
+<script src="../js/app.js"></script>
+<script src="../js/firebase.js"></script>
+
+</body>
+</html>

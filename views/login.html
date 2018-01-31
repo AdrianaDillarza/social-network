@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Raleway:400,500|Roboto:400,700" rel="stylesheet">
+    <!--Logo en pestaña -->
+    <link rel="icon" type="image/png" href="../assets/images/imagotipo.png">
+    <title>Login</title>
+  </head>
+  <body class="login-bk">
+
+
+      <!-- login -->
+      <div id="login_div" class="form-login login" >
+                 <p class="login-title">¡Bienvenida!</p>
+                 <input type="email" id="email_field" class="login-input" placeholder="@nickname" autofocus>
+                 <input type="password" id="password_field" class="login-input" placeholder="Contraseña">
+                 <div class="button-1" onclick="login()">
+                   <input type="submit" value="Entrar" class="login-button">
+                 </div>
+                 <div class="button-2" onclick="register()">
+                   <input type="submit" value="Registrarse" class="login-button">
+                 </div>
+                 <p class="login-lost"><a href="">¿Olvidaste tu contraseña?</a></p>
+                 <img class="logo-form" src="../assets/images/imagotipo.png" alt="">
+         </div>
+         <div id="user_div" class="loggedin-div">
+       <p class="login-title-2">¡Bienvenida!</p>
+       <div class="logo-grande  d-flex align-items-center">
+       <img class="logo" src="../assets/images/logo-splash.png" alt="">
+       </div>
+       <button type="button" class="btn btn-secondary btn-lg" onclick="window.location.href='./home.html'" >Comenzar</button>
+       <button type="button" class="btn btn-secondary btn-lg" onclick="window.location.href='views/login.html'" >Entrar</button>
+
+       <!--<button onclick="logout()">Cerrar sesión</button> -->
+
+</div>
+
+   <!-- Firebase -->
+   <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
+    <!-- jQuery -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../js/bootstrap.min.js"></script>
+		<!-- Base de datos -->
+		<script src="../js/data.js"></script>
+		<!-- Archivos JS -->
+    <script src="../js/app.js"></script>
+    <script src="../js/firebase.js"></script>
+  </body>
+  </html>
