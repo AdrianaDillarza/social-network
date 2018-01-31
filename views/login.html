@@ -32,17 +32,22 @@
                  <p class="login-lost"><a href="">¿Olvidaste tu contraseña?</a></p>
                  <img class="logo-form" src="../assets/images/imagotipo.png" alt="">
          </div>
-         <div id="user_div" class="loggedin-div">
-       <p class="login-title-2">¡Bienvenida!</p>
-       <div class="logo-grande  d-flex align-items-center">
-       <img class="logo" src="../assets/images/logo-splash.png" alt="">
-       </div>
-       <button type="button" class="btn btn-secondary btn-lg" onclick="window.location.href='./home.html'" >Comenzar</button>
-       <button type="button" class="btn btn-secondary btn-lg" onclick="window.location.href='views/login.html'" >Entrar</button>
-
-       <!--<button onclick="logout()">Cerrar sesión</button> -->
-
-</div>
+         <div id="user_div" class="loggedin-div container-fluid">
+          <div class="row">
+            <p class="login-title-2 col-12">¡Bienvenida!</p>
+          </div>
+          <div class="row">
+            <div class="logo-grande col-12 d-flex align-items-end">
+              <img class="logo" src="../assets/images/logo-splash.png" alt="">
+            </div>
+          </div> 
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center mt-1">
+             <button type="button" class="btn btn-secondary btn-lg" onclick="window.location.href='./home.html'" >Comenzar</button>
+            <!--<button onclick="logout()">Cerrar sesión</button> -->
+           </div>
+          </div>     
+         </div>
 
    <!-- Firebase -->
    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>

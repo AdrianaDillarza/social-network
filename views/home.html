@@ -53,9 +53,12 @@
     </div>
   </nav>
 
-<!-- Seccion de Noticias Izquierda-->
+<!-------------- Seccion de Noticias ----------------------> 
+<div class="container-fluid">
+    <div class="row">
+    <!-- Seccion de Noticias Izquierda-->
 
-<div class="card" style="width: 18rem;">
+<div class="card col-3" style="width: 18rem;">
   <img class="logo-form-2" src="../assets/images/avatar-login-2.png" alt="">
 
   <div class="card-body">
@@ -77,28 +80,21 @@
   <div class="card-body">
     <a href="#" class="card-link">Mi Perfil</a>
   </div>
+  <button onclick="logout()">Cerrar sesión</button>
 </div>
-
-        <!-- Seccion de Noticias Derecha ¿Como te sientes hoy?-->
-        <section class="posts-noticias">
-
-
-         <div class="col-8 pull-right">
+<!-- Seccion de Noticias Derecha ¿Como te sientes hoy?-->
+      <section class="posts-noticias card col-8">
              <div class="row">
                  <div class="form-group col-12">
                      <textarea class="form-control" placeholder="¿Como te sientes hoy?" rows="3"></textarea>
-                     <button type="button" class="btn btn-primary">Compartir</button>
-                     <button>
-                       <input type="file" value="upload" id="uploadFile">
-                     </button>
+                     <button type="button" class="btn btn-primary" id="share-btn">Compartir</button>
+                     <input type="file" value="upload" id="uploadFile">
+                     
                    </div>
                  </div>
                  <div class="row">
                    <div class="col 12 posts-timeline"></div>
-               </div>
-           </div>
-       </div>
-   </div>
+                </div>
 </section>
 
 <!-- Firebase -->

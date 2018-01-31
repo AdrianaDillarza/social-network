@@ -313,5 +313,9 @@ border-width: 2px;
 }
 
 .logo-grande {
-  height: 30vh;
+  height: 50vh;
+}
+
+.loggedin-div{
+  height: 100vh;
 }
